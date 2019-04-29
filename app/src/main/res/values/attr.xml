@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="cardback" format="color"/>
+        <attr name="text" format="color"/>
+        <attr name="text2" format="color"/>
+        <attr name="navig" format="color"/>
+        <attr name="search" format="color"/>
+        <attr name="image" format="color"/>
+        <attr name="imagebutton" format="color"/>
+        <attr name="button" format="color"/>
+    </declare-styleable>
+
+
+
+
+
+</resources>

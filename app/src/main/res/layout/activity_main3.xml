@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/background"
+>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+    <TextView
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:text="Edit"
+        android:textColor="?attr/text"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fullimg"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_android_black_24dp"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="2sp"
+            app:civ_circle_background_color="?attr/image" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Android"
+            android:textColor="?attr/text"
+            android:textSize="30sp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+
+
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:background="?attr/cardback"
+       app:cardElevation="1dp"
+       android:padding="10dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/ll"
+       android:id="@+id/callcard"
+       android:layout_marginTop="1dp"
+       android:layout_marginBottom="1dp"
+
+       >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:layout_marginTop="16dp"
+               android:layout_marginBottom="16dp"
+               android:text="8146953096"
+               android:textColor="?attr/text"
+               android:textSize="30sp"
+               android:id="@+id/phoneNumber"
+               />
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/call"
+               android:src="@drawable/ic_call_black_24dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginRight="30dp"
+               android:layout_marginTop="24dp"
+               android:layout_marginBottom="16dp"
+               />
+
+
+       </LinearLayout>
+
+
+   </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:background="?attr/cardback"
+        app:cardElevation="1dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/callcard"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/emailcard"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="athemastermind9@gmail.com"
+                android:textColor="?attr/text"
+                android:textSize="16sp"
+                android:id="@+id/emailing"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email1"
+                android:padding="16dp"
+                android:src="@drawable/ic_email_black_24dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/share"
+        android:background="?attr/cardback"
+        android:layout_below="@id/emailcard"
+        android:elevation="1dp"
+        android:padding="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Contact"
+            android:id="@+id/shareContact"
+            android:textSize="20sp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="32dp"
+            android:textColor="?attr/text"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:background="?attr/cardback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete"
+        android:layout_below="@id/share"
+        android:elevation="1dp"
+        android:padding="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Contact"
+            android:id="@+id/deleteContact"
+            android:textSize="20sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_gravity="start"
+            android:textColor="?attr/text"
+            android:layout_marginLeft="32dp"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:background="?attr/cardback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fav"
+        android:layout_below="@id/delete"
+        android:elevation="1dp"
+        android:padding="10dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to Favourate"
+            android:id="@+id/addtoFavourate"
+            android:textSize="20sp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_gravity="start"
+            android:textColor="?attr/text"
+            />
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>
+</ScrollView>

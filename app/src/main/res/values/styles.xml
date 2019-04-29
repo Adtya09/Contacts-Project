@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!--Night Mode-->
+
+
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/background</item>
+        <item name="cardback">@color/cardback</item>
+        <item name="text">@color/text</item>
+        <item name="navig">@color/navig</item>
+        <item name="search">@color/search</item>
+        <item name="image">@color/image</item>
+        <item name="button">@color/colorAccent</item>
+        <item name="imagebutton">@color/imagebutton</item>
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+    <!--Day Mode-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@color/backgroundd</item>
+        <item name="cardback">@color/cardbackd</item>
+        <item name="text">@color/textd</item>
+        <item name="navig">@color/navigd</item>
+        <item name="search">@color/searchd</item>
+        <item name="image">@color/imaged</item>
+        <item name="imagebutton">@color/imagebuttond</item>
+
+
+
+
+
+    </style>
+
+</resources>

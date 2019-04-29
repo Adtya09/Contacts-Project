@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4d4dff</color>
+    <color name="colorPrimaryDark">#6200EE</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#303030</color>
+    <color name="cardback">#424242</color>
+    <color name="text">#ffffff</color>
+    <color name="navig">#2196F3</color>
+    <color name="search">#ffffff</color>
+    <color name="image">#ffffff</color>
+    <color name="button">@color/colorAccent</color>
+    <color  name="imagebutton">#228B22</color>
+
+    <!--Day Colours-->
+    <color name="backgroundd">#ffffff</color>
+    <color name="cardbackd">#ffffff</color>
+    <color name="textd">#000000</color>
+    <color name="navigd">#2196F3</color>
+    <color name="searchd">#ffffff</color>
+    <color name="imaged">#ffffff</color>
+    <color name="imagebuttond">#228B22</color>
+
+
+</resources>
